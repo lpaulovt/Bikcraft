@@ -23,7 +23,8 @@ body {
 
 .header_menu ul li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
 .header_menu ul li a {
@@ -31,4 +32,13 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    transition: color .25s ease-in-out;
+
+}
+
+.header_menu ul li a:hover {
+    color: #fff;
 }
