@@ -1,6 +1,6 @@
 :root {
     --yellow-color: #fec63e;
-    --black-color: #;
+    --black-color: #000;
 }
 
 body {
@@ -27,5 +27,8 @@ body {
 }
 
 .header_menu ul li a {
-    
+    color: var(--black-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
 }
