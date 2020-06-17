@@ -1,8 +1,31 @@
 :root {
     --yellow-color: #fec63e;
+    --black-color: #;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
     width: 100%;
     background: var(--yellow-color);
+    padding: 15px 0;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header_menu ul li a {
+    
 }
