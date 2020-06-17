@@ -1,0 +1,8 @@
+:root {
+    --yellow-color: #fec63e;
+}
+
+.header {
+    width: 100%;
+    background: var(--yellow-color);
+}
