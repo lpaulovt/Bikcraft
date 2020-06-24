@@ -195,3 +195,28 @@ p {
     color: var(--black-color);
     border-color: var(--black-color);
 }
+
+/* Portfolio */
+
+.portfolio {
+    background: var(--black-color);
+    width: 100%;
+    padding: 40px 0;
+    
+}
+
+.portfolio .subtitle {
+    color: var(--yellow-color);
+}
+
+.portfolio .subtitle::after {
+    background: var(--yellow-color);
+}
+
+.portfolio_list li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+    color: #fff;
+}
