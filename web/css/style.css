@@ -34,6 +34,7 @@ p {
     color: var(--black-color);
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .subtitle::after{
@@ -144,7 +145,13 @@ p {
 .products_list li {
     background: var(--yellow-color);
     text-align: center;
+    cursor: pointer;
+    
+    transition: all .35s ease-in-out;
+}
 
+.products_list li:hover {
+    transform: translateY(-10px);
 }
 
 .products_list li h3 {
@@ -172,4 +179,19 @@ p {
 .product-icon {
     background: var(--black-color);
     padding: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+.call .btn:hover {
+    color: var(--black-color);
+    border-color: var(--black-color);
 }
