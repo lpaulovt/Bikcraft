@@ -84,6 +84,9 @@ p {
 
 }
 
+.header_menu ul li a:hover {
+    color: #fff;
+}
 
 /* Intro */
 
@@ -130,11 +133,6 @@ p {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
-}
-
-.intro .btn:hover {
-    color: #fff;
-    border-color: #fff;
 }
 
 /* Products */
