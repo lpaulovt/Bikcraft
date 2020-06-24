@@ -26,6 +26,10 @@ p {
     transition: all .25s ease-in-out;
 }
 
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+}
 .subtitle {
     font-size: 24px;
     line-height: 30px;
@@ -80,9 +84,6 @@ p {
 
 }
 
-.header_menu ul li a:hover {
-    color: #fff;
-}
 
 /* Intro */
 
@@ -191,7 +192,7 @@ p {
     margin-bottom: 20px;
 }
 
-.call .btn:hover {
+.products .call .btn:hover {
     color: var(--black-color);
     border-color: var(--black-color);
 }
@@ -211,6 +212,10 @@ p {
 
 .portfolio .subtitle::after {
     background: var(--yellow-color);
+}
+
+.portfolio_list li {
+
 }
 
 .portfolio_list li:last-child {
