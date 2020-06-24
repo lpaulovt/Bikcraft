@@ -31,6 +31,18 @@ p {
     line-height: 30px;
     font-weight: bold;
     letter-spacing: .1em;
+    color: var(--black-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background:var(--black-color);
+    display: block;
+    margin: 8px auto;
 }
 
 /* Header */
@@ -121,4 +133,43 @@ p {
 .intro .btn:hover {
     color: #fff;
     border-color: #fff;
+}
+
+/* Products */
+
+.products {
+    padding: 60px 0;
+}
+
+.products_list li {
+    background: var(--yellow-color);
+    text-align: center;
+
+}
+
+.products_list li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.products_list li h3::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background:var(--black-color);
+    display: block;
+    margin: 2px auto;
+}
+
+.products_list li p {
+    padding: 10px 20px 20px;
+}
+
+.product-icon {
+    background: var(--black-color);
+    padding: 20px;
 }
