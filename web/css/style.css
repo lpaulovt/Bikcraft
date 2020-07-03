@@ -290,3 +290,11 @@ img {
 .break .quote-extern {
     max-width: 400px;
 }
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background: var(--black-color);
+    color: #fff;
+}
