@@ -60,6 +60,24 @@ img {
     margin: 8px auto;
 }
 
+
+.subtitle-intern {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.subtitle-intern::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background:var(--black-color);
+    display: block;
+    margin: 6px 0 10px;
+}
+
 /* Header */
 
 .header {
@@ -276,6 +294,7 @@ img {
 
 .quality_list {
     padding-top: 40px;
+    overflow: auto;
 }
 
 .quality_list li {

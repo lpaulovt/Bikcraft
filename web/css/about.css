@@ -2,3 +2,24 @@
     background: url("../img/bg-sobre.jpg") no-repeat center;
 
 }
+
+.mission_about {
+    padding-top: 60px;
+}
+
+.mission_about p {
+    padding-right: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+.mission_about ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.team-photo {
+    padding-top: 20px;
+}
