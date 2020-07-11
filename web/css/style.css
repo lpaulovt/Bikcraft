@@ -116,6 +116,10 @@ img {
     color: #fff;
 }
 
+.header_menu ul li a.menu_actived{
+    color: #ffffff ;
+}
+
 /* INTRO INTERN */
 
 .intro-intern {
