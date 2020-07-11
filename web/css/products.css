@@ -80,7 +80,7 @@
     background: var(--black-color);
     width: 100%;
     margin-top: 60px;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .orcamento h2 {
@@ -126,11 +126,47 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     border: 4px solid var(--yellow-color);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     outline: none;
 }
 
 .form button {
     padding: 7px 40px;
     background: none;
+}
+
+.orcamento_data {
+    color: #fff;
+}
+
+.orcamento_data h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+}
+
+.orcamento_data span {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.orcamento_data span + span {
+    margin-bottom: 40px;
+}
+
+.orcamento_data ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 15px 20px;
+}
+
+.orcamento_data ul li:nth-child(odd) {
+    background: #1d1d1d;
+}
+
+.orcamento_data p {
+    margin-top: 10px;
 }
