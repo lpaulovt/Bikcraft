@@ -153,8 +153,8 @@
     line-height: 30px;
 }
 
-.orcamento_data span + span {
-    margin-bottom: 40px;
+.orcamento_data span:nth-of-type(2){
+    margin-bottom: 30px;
 }
 
 .orcamento_data ul li {

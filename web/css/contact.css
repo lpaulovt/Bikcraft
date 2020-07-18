@@ -95,3 +95,7 @@
 .contact_data ul li a:hover {
     border-color: var(--black-color);
 }
+
+.contact-map {
+    margin-bottom: 60px;
+}
