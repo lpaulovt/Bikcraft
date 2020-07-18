@@ -16,10 +16,12 @@
     font-size: 18px;
     line-height: 25px;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 .client_quote cite {
-    text-align: right;
+    float: right;
+    font-size: 18px;
     font-weight: bold;
     font-style: normal;
 }
